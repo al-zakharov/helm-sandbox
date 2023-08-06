@@ -1,0 +1,15 @@
+apiVersion: v2
+name: mariadb
+version: 0.1.0
+description: MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS), intended to remain free and open-source software under the GNU General Public License
+type: application
+appVersion: "11"
+keywords:
+  - mariadb
+  - database
+  - sql
+home: https://github.com/al-zakharov/helm-sandbox
+maintainers:
+  - name: alzakharov
+    email: helm@alzakharov.com
+    url: https://github.com/al-zakharov

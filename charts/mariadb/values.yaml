@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: mariadb
+  tag: "11"
+  pullPolicy: IfNotPresent
+
+mariadb:
+  root:
+    password: "password"
+  database:
+    user: "user"
+    password: "userpassword"
+
+service:
+  type: ClusterIP
+  port: 3306
+
+persistence:
+  storageClass: ""
+  accessMode: ReadWriteOnce
+  size: 1Gi
+
