@@ -3,7 +3,28 @@ entries:
   mariadb:
   - apiVersion: v2
     appVersion: "11"
-    created: "2023-08-06T22:53:38.038211+03:00"
+    created: "2023-08-07T21:13:12.873046+03:00"
+    description: MariaDB is a community-developed, commercially supported fork of
+      the MySQL relational database management system (RDBMS), intended to remain
+      free and open-source software under the GNU General Public License
+    digest: 2e80c268b9f1cda91d63c8cc42c037aba91d944765482df5829be48a040665ab
+    home: https://github.com/al-zakharov/helm-sandbox
+    keywords:
+    - mariadb
+    - database
+    - sql
+    maintainers:
+    - email: helm@alzakharov.com
+      name: alzakharov
+      url: https://github.com/al-zakharov
+    name: mariadb
+    type: application
+    urls:
+    - https://al-zakharov.github.io/helm-sandbox/mariadb-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: "11"
+    created: "2023-08-07T21:13:12.872866+03:00"
     description: MariaDB is a community-developed, commercially supported fork of
       the MySQL relational database management system (RDBMS), intended to remain
       free and open-source software under the GNU General Public License
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://al-zakharov.github.io/helm-sandbox/mariadb-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-06T22:53:38.037825+03:00"
+generated: "2023-08-07T21:13:12.871638+03:00"
