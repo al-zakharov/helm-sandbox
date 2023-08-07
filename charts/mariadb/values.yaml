@@ -13,11 +13,8 @@ mariadb:
     password: "userpassword"
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 3306
 
-persistence:
-  storageClass: ""
-  accessMode: ReadWriteOnce
-  size: 1Gi
-
+persistentVolumeClaim:
+  storage: 1Gi
